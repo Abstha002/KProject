@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Restore readable default styling for the Posts Manager */
+.posts-manager h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.posts-manager h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.posts-manager h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.posts-manager input,
+.posts-manager textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.posts-manager button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-right: 8px;
+}
+
+.posts-manager article {
+  border-radius: 6px;
+}
+
+.dark .posts-manager {
+  color: #f3f4f6;
+}
+
+.dark .posts-manager input,
+.dark .posts-manager textarea {
+  background: #1f2937;
+  color: white;
+  border-color: #4b5563;
+}
+
+.dark .posts-manager article {
+  border-color: #4b5563 !important;
+}
+
+/* Posts page light and dark mode */
+.posts-manager {
+  background-color: white;
+  color: #111827;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dark .posts-manager {
+  background-color: #030712;
+  color: #f9fafb;
+}
+
+.dark .posts-manager input,
+.dark .posts-manager textarea {
+  background-color: #1f2937;
+  color: white;
+  border-color: #4b5563;
+}
+
+.dark .posts-manager input::placeholder,
+.dark .posts-manager textarea::placeholder {
+  color: #9ca3af;
+}
+
+.dark .posts-manager article {
+  background-color: #111827;
+  border-color: #4b5563 !important;
+}
+
+.dark .posts-manager button {
+  background-color: #374151;
+  color: white;
+  border-color: #4b5563;
+}
+
+.dark .posts-manager button:hover {
+  background-color: #4b5563;
+}
