@@ -13,7 +13,7 @@ export default function Home() {
       <div className="mt-6 rounded-xl bg-gray-100 p-6 dark:bg-gray-800">
         <h2 className="text-xl font-semibold">My first card</h2>
         <p className="mt-2">
-          The background and text change with the theme.
+          The background and text change with the themee.
         </p>
       </div>
     </main>
