@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useState } from "react";
@@ -158,7 +157,10 @@ export default function PostsPage() {
   }
 
   return (
-    <main style={{ maxWidth: 800, margin: "40px auto", padding: 20 }}>
+    <main
+  className="posts-manager"
+  style={{ maxWidth: 800, margin: "40px auto", padding: 20 }}
+>
       <h1>Posts Manager</h1>
       <p>Practise GET, POST, PUT and DELETE.</p>
 
