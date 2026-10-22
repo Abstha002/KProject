@@ -39,7 +39,7 @@ export default function Navbar() {
 
           <span>
             <span className="block text-lg font-bold tracking-tight text-gray-950 dark:text-white">
-              NexaBank
+              KriBank
             </span>
             <span className="block text-[11px] text-gray-500">
               Digital banking demo
